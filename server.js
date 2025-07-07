@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "https://user-crud-ui.vercel.app/"
+  origin: "https://user-crud-ui.vercel.app"
 }));
 
 
